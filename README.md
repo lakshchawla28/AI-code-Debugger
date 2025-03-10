@@ -75,6 +75,11 @@ This project is **MIT licensed**.
 
 
 
+(NOTE: IF YOUR CODE IS NOT WORKING YOU ARE REQUESTED TO USE YOUR OWN OPENAI API KEY FOR THAT AND NAME THAT FILE config.py)
+thank you
+
+
+
 
 
 
