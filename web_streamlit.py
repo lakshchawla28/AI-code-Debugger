@@ -17,7 +17,7 @@ if st.button("Debug Code"):
             with open("temp.py", "w") as temp_file:
                 temp_file.write(code)
 
-            pylint_errors = analyze_code_with_pylint("temp.py")
+            pylint_errors = analyze_code_with_pylint(temp_file)
 
             if not pylint_errors:
                 st.success("NO ERRORS FOUND IN THE CODE")
